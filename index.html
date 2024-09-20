@@ -27,6 +27,23 @@
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
 
+  <style>
+    .floating {
+     position: fixed;
+     width: 48px;
+     height: 48px;
+     bottom: 85px;
+     right: 30px;
+     background-color: #25d366;
+     color: #fff;
+     border-radius: 50px;
+     text-align: center;
+     font-size: 30px;
+     box-shadow: 2px 2px 3px #999;
+     z-index: 100;
+    }
+  </style>
+
 </head>
 
 <body class="index-page">
@@ -68,7 +85,7 @@
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
 
-      <a class="btn-getstarted" href="https://wa.me/6285735725629">Daftar</a>
+      <a class="btn-getstarted" href="https://wa.me/6285735725629?text=Assalamualaikum..%20Saya menghubungi dari web Milyuner.id%20Mau daftar bisnis milyuner">Daftar</a>
 
     </div>
   </header>
@@ -85,7 +102,7 @@
           <h1 data-aos="fade-up">Selamat datang di <span>Milyuner Sukses Sejahtera</span></h1>
           <p data-aos="fade-up" data-aos-delay="100">Quickly start your project now and set the stage for success<br></p>
           <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
-            <a href="https://wa.me/6285735725629" class="btn-get-started">Daftar</a>
+            <a href="https://wa.me/6285735725629?text=Assalamualaikum..%20Saya menghubungi dari web Milyuner.id%20Mau daftar bisnis milyuner" class="btn-get-started">Daftar</a>
             <a href="https://youtu.be/UKszrjSJW_c?si=DPVVuLYgLbm5GNt0" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Lihat Video</span></a>
           </div>
           <img src="assets/img/hero-services-img.webp" class="img-fluid hero-img" alt="" data-aos="zoom-out" data-aos-delay="300">
@@ -927,7 +944,11 @@
     </div>
 
   </footer>
-
+  <!-- render the button and direct it to wa.me -->
+  <a href="https://wa.me/6285735725629?text=Assalamualaikum..%20Saya menghubungi dari web Milyuner.id%20Mau daftar bisnis milyuner" class="floating" target="_blank">
+  <i class="fab fa-whatsapp fab-icon"></i>
+  </a>
+  
   <!-- Scroll Top -->
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
